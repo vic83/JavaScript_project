@@ -1,0 +1,288 @@
+.intelligence {
+    font-family: monospace;
+    font-size: 3em;
+    letter-spacing: 0.5em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0 #400, 0 0 0.1em #b00;
+    background-color: #ffa500;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.content {
+    min-height: 400px;
+}
+
+/* sammansatt: ljusorange FFA500, brun 99793D, skarp orange FF6200, ljus turkos 40FFCE,
+mild grön 14CC69, (komplementär från mild grön) fail FF1800 */
+
+.info {
+    font-family: sans-serif;
+    background-color: #99793d;
+    padding: 2em;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.question {
+    font-family: sans-serif;
+    padding: 2em;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.result {
+    font-family: sans-serif;
+    border: solid;
+    border-color: #ff6200;
+    border-width: medium;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.correct {
+    background-color: #14cc69;
+    border-radius: 7px;
+}
+
+.wrong {
+    background-color: #ff1800;
+    border-radius: 7px;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.list {
+    float: left;
+    font-family: sans-serif;
+    padding-left: 4em;
+}
+
+.center {
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.rightElement {
+    padding: 2em;
+    margin: 0 auto;
+    width: 470px;
+}
+
+#progressBar {
+    background-color: grey;
+    margin-top: 2em;
+    width: inherit;
+}
+
+#progress {
+    width: 0.1%;
+    height: 20px;
+    background-color: #ffa500;
+}
+
+footer {
+    padding: 1em;
+    margin: 0 auto;
+    width: 500px;
+}
+
+/* All flags now have the same size. */
+.flag2-3 {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border: solid 1px black;
+}
+
+.upside-down {
+    background-color: grey;
+}
+
+.sverige {
+    background-color: #005d97;
+}
+
+/* vertical stripe */
+.sverige .part1 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 20px;
+    height: 100px;
+    background-color: #ffcd27;
+}
+
+/* horizontal stripe */
+.sverige .part2 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 150px;
+    height: 20px;
+    background-color: #ffcd27;
+}
+
+.danmark {
+    background-color: #e30033;
+}
+
+/* vertical stripe */
+.danmark .part1 {
+    position: absolute;
+    top: 0;
+    left: 45px;
+    width: 15px;
+    height: 100px;
+    background-color: #fff;
+}
+
+/* horizontal stripe */
+.danmark .part2 {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 150px;
+    height: 15px;
+    background-color: #fff;
+}
+
+.romania {
+    background-color: #ffce23;
+}
+
+.romania .part1 {
+    width: 50px;
+    height: 100px;
+    background-color: #002f7e;
+}
+
+.romania .part2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50px;
+    height: 100px;
+    background-color: #ec002a;
+}
+
+.japan {
+    background-color: #fff;
+}
+
+.japan .circle {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #d70030;
+}
+
+.elfenbenskusten {
+    background-color: #fff;
+}
+
+.elfenbenskusten .part1 {
+    width: 50px;
+    height: 100px;
+    background-color: #f77f00;
+}
+
+.elfenbenskusten .part2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50px;
+    height: 100px;
+    background-color: #009e60;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 40px;
+}
+
+.bigshape {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.rectangle {
+    height: 70px;
+}
+
+.bigrectangle {
+    height: 140px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    background-color: white;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid orange;
+}
+
+.bigtriangle {
+    width: 0;
+    height: 0;
+    background-color: white;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid orange;
+}
+
+.bigcircle {
+    border-radius: 50%;
+}
+
+.apprehension {
+    padding: 4em;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.big {
+    font-family: monospace;
+    font-size: 6em;
+    color: #ff6200;
+}
